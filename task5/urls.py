@@ -8,5 +8,3 @@ urlpatterns = [
     path('', include('problems.urls')),
 ]
 
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-urlpatterns += static(settings.STATIC_ROOT, document_root=settings.STATIC_ROOT)
